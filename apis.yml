@@ -1,7 +1,24 @@
 aid: stateless
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stateless.png
 name: Stateless
-description: Stateless is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Stateless was a Boulder, Colorado network-infrastructure startup (founded 2016) that
+  built a software platform for network automation in the hybrid multi-cloud era, delivering network
+  functions such as firewalls and load balancers through an "as a service" consumption model with an
+  emphasis on simplicity, scalability, and evolvability. Backed by Speedinvest, the National Science
+  Foundation, Drive Capital, and Matchstick Ventures, with its last funding announced in December 2022.
+  The company now appears defunct — its former domains (stateless.net, getstateless.com) redirect to
+  domain-parking "for sale" pages and no live developer portal, documentation, or API surface remains.
 url: https://raw.githubusercontent.com/api-evangelist/stateless/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,28 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: 'stateless.net and getstateless.com redirect (HTTP 307) to afternic.com domain-parking
+  for-sale pages as of 2026-07-21; no live site, developer portal, docs, or API surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Networking
+- Network Automation
+- Network Function Virtualization
+- Multi-Cloud
+- Cloud Infrastructure
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
