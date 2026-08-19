@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-evidence: 'stateless.net and getstateless.com redirect (HTTP 307) to afternic.com domain-parking
   for-sale pages as of 2026-07-21; no live site, developer portal, docs, or API surface.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
